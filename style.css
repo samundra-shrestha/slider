@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tesimonial {
+  width: 1200px;
+  margin-inline: auto;
+  overflow: hidden;
+  position: relative;
+}
+.tesimonial .swiper-container .swiper-slide {
+  aspect-ratio: 1;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scale: 0.5;
+  transition: scale 0.25s linear, background-color 0.25s linear;
+}
+.tesimonial .swiper-container .swiper-slide-active {
+  scale: 1;
+  background-color: yellow;
+}
+.tesimonial .swiper-container .swiper-slide-prev, .tesimonial .swiper-container .swiper-slide-next {
+  scale: 0.75;
+}/*# sourceMappingURL=style.css.map */

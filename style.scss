@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tesimonial{
+    width: 1200px;
+    margin-inline: auto;
+    overflow: hidden;
+    position: relative;
+    .swiper-container{
+        .swiper-slide{
+            aspect-ratio: 1;
+            background-color: red;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            scale: .5;
+            transition: scale .25s linear, background-color .25s linear;
+        }
+        .swiper-slide-active{
+            scale: 1;
+            background-color: yellow;
+        }
+        .swiper-slide-prev, .swiper-slide-next{
+         scale: .75
+        }
+    }
+}
